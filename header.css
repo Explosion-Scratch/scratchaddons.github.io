@@ -1,0 +1,63 @@
+/* Color pallete: https://coolors.co/0a100d-f4f9e9-77b6ea-f58f00-b9f5d8 */
+@font-face {
+  font-family: Regular;
+  src: url(Regular.ttf);
+}
+body {
+  margin: 0;
+  font-family: regular;
+  background-color: #F4F9E9;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #0A100D;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition-duration: 0.3s;
+  border-radius: 3px;
+}
+
+.topnav a:hover {
+  background-color: #EDFCF5;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #F58F00;
+  color: #F4F9E9;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
