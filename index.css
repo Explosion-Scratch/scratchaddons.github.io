@@ -42,5 +42,6 @@ p {
   margin: 60px;
 }
 img {
-  margin: 30px
+  margin: 30px;
+  display: block;
 }
