@@ -30,14 +30,17 @@ a {
   font-family: Regular !important;
   color: #1E78C2;
 }
-img {
+.index img {
   filter: sepia(0%);
   transition-duration: 0.5s;
 }
-img:hover {
+.index img:hover {
   filter: sepia(50%);
 }
 p {
   text-indent: 2em;
   margin: 60px;
+}
+img {
+  margin: 30px
 }
