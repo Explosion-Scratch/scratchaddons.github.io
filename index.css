@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Regular;
+  src: url(Regular.ttf);
+}
+@font-face {
+  font-family: Bold;
+  src: url(Bold.ttf);
+}
+h1 {
+  font-family: Bold !important;
+  text-align: center !important;
+}
+h2 {
+  font-family: Regular !important;
+  text-align: center !important;
+}
+h3 {
+  font-family: Regular !important;
+}
+h4 {
+  font-family: Regular !important;
+}
+h5 {
+  font-family: Regular !important;
+}
+p {
+  font-family: Regular !important;
+}
+a {
+  font-family: Regular !important;
+  color: #1E78C2;
+}
+.index img {
+  filter: sepia(0%);
+  transition-duration: 0.5s;
+}
+.index img:hover {
+  filter: sepia(50%);
+}
+p {
+  text-indent: 2em;
+  margin: 60px;
+}
+img {
+  margin: 30px
+}
