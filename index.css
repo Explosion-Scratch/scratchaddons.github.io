@@ -14,20 +14,10 @@ h2 {
   font-family: Regular !important;
   text-align: center;
 }
-h3 {
-  font-family: Regular !important;
-}
-h4 {
-  font-family: Regular !important;
-}
-h5 {
-  font-family: Regular !important;
-}
-p {
+h3 +h4 + h5 + h6 + a{
   font-family: Regular !important;
 }
 a {
-  font-family: Regular !important;
   color: #1E78C2;
 }
 .index img {
