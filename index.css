@@ -26,4 +26,12 @@ p {
 }
 a {
   font-family: Regular !important;
+  color: #1E78C2;
+}
+img {
+  filter: sepia(0%);
+  transition-duration: 0.5s;
+}
+img:hover {
+  filter: sepia(50%);
 }

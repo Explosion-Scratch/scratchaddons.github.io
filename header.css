@@ -6,7 +6,7 @@
 body {
   margin: 0;
   font-family: regular;
-  background-color: #B9F5D8;
+  background-color: #F4F9E9;
 }
 
 .topnav {
@@ -27,7 +27,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #F4F9E9;
+  background-color: #EDFCF5;
   color: black;
 }
 
