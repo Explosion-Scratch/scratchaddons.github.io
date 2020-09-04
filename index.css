@@ -8,9 +8,11 @@
 }
 h1 {
   font-family: Bold !important;
+  text-align: center !important;
 }
 h2 {
   font-family: Regular !important;
+  text-align: center !important;
 }
 h3 {
   font-family: Regular !important;
@@ -34,4 +36,8 @@ img {
 }
 img:hover {
   filter: sepia(50%);
+}
+p {
+  text-indent: 2em;
+  margin: 60px;
 }
