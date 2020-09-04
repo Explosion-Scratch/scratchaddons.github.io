@@ -1,3 +1,4 @@
+/* Color pallete: https://coolors.co/0a100d-f4f9e9-77b6ea-f58f00-b9f5d8 */
 @font-face {
   font-family: Regular;
   src: url(Regular.ttf);
@@ -5,11 +6,12 @@
 body {
   margin: 0;
   font-family: regular;
+  background-color: #B9F5D8;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #0A100D;
 }
 
 .topnav a {
@@ -21,16 +23,17 @@ body {
   text-decoration: none;
   font-size: 17px;
   transition-duration: 0.3s;
+  border-radius: 3px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #F4F9E9;
   color: black;
 }
 
 .topnav a.active {
-  background-color: rgb(216, 116, 22);
-  color: white;
+  background-color: #F58F00;
+  color: #F4F9E9;
 }
 
 .topnav .icon {

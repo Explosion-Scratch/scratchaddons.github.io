@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Regular;
+  src: url(Regular.ttf);
+}
+@font-face {
+  font-family: Bold;
+  src: url(Bold.ttf);
+}
+h1 {
+  font-family: Bold !important;
+}
+h2 {
+  font-family: Regular !important;
+}
+h3 {
+  font-family: Regular !important;
+}
+h4 {
+  font-family: Regular !important;
+}
+h5 {
+  font-family: Regular !important;
+}
+p {
+  font-family: Regular !important;
+}
+a {
+  font-family: Regular !important;
+}
