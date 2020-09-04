@@ -8,11 +8,11 @@
 }
 h1 {
   font-family: Bold !important;
-  text-align: center !important;
+  text-align: center;
 }
 h2 {
   font-family: Regular !important;
-  text-align: center !important;
+  text-align: center;
 }
 h3 {
   font-family: Regular !important;
