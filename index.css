@@ -30,8 +30,21 @@ a {
 p {
   text-indent: 2em;
   margin: 60px;
+  font-size: 20px;
+}
+li{
+  font-size: 20px;
 }
 img {
   margin: 30px;
   display: block;
+}
+::-moz-selection { 
+  background-color: #f58f00;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #f58f00;
+  color: #ffffff;
 }

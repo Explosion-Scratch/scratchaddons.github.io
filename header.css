@@ -22,7 +22,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  transition-duration: 0.3s;
+  transition-duration: 0.6s;
   border-radius: 3px;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: #F58F00;
+  background-color: #f58f00;
   color: #F4F9E9;
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: fixed;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
