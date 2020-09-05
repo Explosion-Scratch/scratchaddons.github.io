@@ -41,7 +41,7 @@ img {
 }
 ::-moz-selection { 
   background-color: #f58f00;
-color: #ffffff;
+  color: #ffffff;
 }
 
 ::selection {
