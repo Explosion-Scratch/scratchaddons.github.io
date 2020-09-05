@@ -30,6 +30,10 @@ a {
 p {
   text-indent: 2em;
   margin: 60px;
+  font-size: 20px;
+}
+li{
+  font-size: 20px;
 }
 img {
   margin: 30px;
