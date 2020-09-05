@@ -39,3 +39,12 @@ img {
   margin: 30px;
   display: block;
 }
+::-moz-selection { 
+  background-color: #f58f00;
+color: #ffffff;
+}
+
+::selection {
+  background-color: #f58f00;
+  color: #ffffff;
+}
