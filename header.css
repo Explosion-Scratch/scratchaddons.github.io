@@ -6,7 +6,7 @@
 body {
   margin: 0;
   font-family: regular;
-  background-color: --primary-color;
+  background-color: var(--primary-color);
 }
 
 .topnav {
