@@ -10,7 +10,7 @@ body {
 
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg,--primary-color 50%, --secondary-color 50%);
+  background-image: linear-gradient(-60deg,var(--primary-color) 50%, var(--secondary-color) 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
