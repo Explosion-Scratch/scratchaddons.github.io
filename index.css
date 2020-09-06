@@ -46,7 +46,7 @@ img {
   margin: 30px
 }
 body {
-  color: --body-font-color !important;
+  color: var(--body-font-color) !important;
 }
 
  :root {
