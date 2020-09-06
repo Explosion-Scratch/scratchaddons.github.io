@@ -13,6 +13,7 @@ h1 {
 h2 {
   font-family: Regular !important;
   text-align: center !important;
+  color: white !importtant;
 }
 h3 {
   font-family: Regular !important;
@@ -45,5 +46,78 @@ img {
   margin: 30px
 }
 body {
-  color: white !important;
+  color: --body-font-color !important;
 }
+
+ :root {
+    --primary-color: #FAFAFA;
+    --secondary-color: #DDECF2;
+    --body-font-color: black;
+}
+
+[data-theme="dark"] {
+    --primary-color: #2a2a2a;
+    --secondary-color: #1a1a1a;
+    --body-font-color: white;
+}
+
+/*slider switch css */
+.theme-switch-wrapper {
+display: flex;
+align-items: center;
+}
+
+.theme-switch-wrapper em {
+margin-left: 10px;
+font-size: 1rem;
+}
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
