@@ -44,3 +44,6 @@ p {
 img {
   margin: 30px
 }
+body {
+  color: white !important;
+}
