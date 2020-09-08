@@ -229,6 +229,7 @@ table{
   margin-left: 20px;
   transition-duration: 0.5s;
   border-radius: 20px;
+  padding-bottom: 20px;
 }
 td {
   border-radius: 30px;
