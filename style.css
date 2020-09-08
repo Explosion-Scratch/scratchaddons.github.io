@@ -215,8 +215,8 @@ p {
   transition-duration: 0.5s;
 }
 #download {
-  width: 30% !important;
-  height: 30% !important;
+  width: 20%;
+  height: 20%;
   display: block !important;
   margin-left: auto !important;
 }
