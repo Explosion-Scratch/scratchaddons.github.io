@@ -68,12 +68,12 @@ input[type="checkbox"]{
   display: none;
 }
 
-@media (max-width: 2000px){
+@media (max-width: 1500px){
   nav{
     padding: 0 40px 0 50px;
   }
 }
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
   nav .menu-btn i{
     display: block;
   }
