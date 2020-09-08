@@ -1,33 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-	<link rel="stylesheet" href="index.css"></link>
-	<link rel="icon" type="image/png" href="./logo.png">
-	<title>ScratchAddons | About</title>
+    <meta charset="utf-8">
+    <title>ScratchAddons | Blank</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js">
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
- 
-<link rel="stylesheet" href="header.css">
-	<div class="topnav" id="myTopnav">
-		<a href="index.html">Home</a>
-		<a href="about.html" class="active">About</a>
-		<a href="contribute.html">Contribute</a>
-		<a href="download.html">Download</a>
-		<a href="contributors.html">Contributors</a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-			<i class="fa fa-bars"></i>
-  </a>
-  </div>
-</link>
-<br><br><br>
-<h2>About ScratchAddons</h2>
-<p>ScratchAddons is an open source project started by World_Languages aimed at creating a collection of browser extensions, userscripts and userstyles and combining them into one browser extension. It has two major motives: to help improve the look, feel, and function of the scratch website, and to collect and archive userstyles and userscripts because the Scratch Team is deleting them. Eventually, ScratchAddons will be a browser extension for Chrome and Firefox, but for now it is being developed on <a href="https://github.com/scratchaddons/scratchaddons">GitHub</a>.</p>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+<body>
+  <nav>
+        <div class="logo">
+            <img src="logo.png" href="https://github.com/ScratchAddons" style="width: 8%; height: auto; border-radius: 50%; float: left; margin-right: 20px;">
+            ScratchAddons
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contribute.html">Contribute</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="contributors.html">Contributors</a></li>
+        </ul>
+    </nav>
+</body>
+<br><br><br><br><br><br>
+<span id="download" class="iconify" data-icon="flat-color-icons:about" data-inline="false"></span><br><br>
+<h1 style="text-align: center;" id="effect">About ScratchAddons</h1>
+<p>Scratch Addons is a WebExtension (supports both Chrome and Firefox). Scratch Addons’ mission is to combine all existing Scratch extensions, userscripts and userstyles into a single easy-to-access place, while still letting users choose which ones to enable.<br><br></p>
+<h3 style="text-align: center;">What actually is an "addon"?</h3>
+<p>An addon is similar to an extension or a userscript, but they use special APIs provided by the Scratch Addons extension. These APIs allow addons to run scripts on a Scratch page (userscripts), run scripts on the background (persistent scripts), or apply styles to the Scratch website (userstyles).
+
+Userscripts and persistent scripts can use the addon.* JavaScript APIs, which allow them to obtain Scratch-related information (for example, get the current logged in user) and also use extension APIs (like sending notifications).
+
+Converting an already existing extension/userscript into an addon, or writing your own, is very easy. <a href="https://github.com/ScratchAddons/ScratchAddons/wiki/Creating-an-addon">Check out the guide</a>.<br><br></p>
+<h3 style="text-align: center;">If everything is an addon that what does ScratchAddons do?</h3>
+<p>Scratch Addons by itself is just an addon loader. Its main tasks are:</p>
+<ul id="readable_list">
+  <li>Allow users to enable, disable and configure addons.</li>
+  <li>Run addons and provide APIs to them.</li>
+  <li>Provide global state to addons (for example, the addon.auth API).</li>
+  <li>Pollute prototypes for use by addon userscripts.</li>
+  <li>Provide ways to access and modify Redux state.</li>
+  <li>Avoid addons from interfering with each other.</li>
+  <li>Avoid duplicate work from different addons.</li>
+</ul><br><br>
+<h3 style="text-align: center;">Installation</h3>
+<p>No build is required. After cloning the repository to your computer, just load the extension by following these steps. <br><br>
+<h4 style="padding: 20px; text-decoration: underline; text-align: center">Chrome</h4>
+  <ol style="list-style-type: lower-roman;">
+    <li>Open <a href="chrome://extensions">chrome://extensions</a> to open the Extension Management page by typing it into your address bar.</li>
+    <li>Enable Developer Mode by clicking the toggle switch next to Developer mode.</li>
+    <li>Click the LOAD UNPACKED button on the top and select the extension directory which has the manifest.json file in it.<li>
+  </ol>
+<h4 style="padding: 20px; text-decoration: underline; text-align: center">Firefox</h4>
+  <ol style="list-style-type: lower-roman;">
+    <li>Open <a href="about:debugging">about:debugging</a> to open the add-ons page by typing it into your address bar.</li>
+    <li>Click This Firefox on the right-hand menu.</li>
+    <li>Click Load Temporary Add-on... and select the manifest.json file.</li>
+  </ol>
+<br><br>
+<h3 style="text-align: center;">Contribute</h3>
+<p>If you found a bug, or want to suggest new features, please use the <a href="https://github.com/scratchaddons/scratchaddons/issues">issues tab</a>. If you want to help with the code or add a new addon, fork this repository, and then create a <a href="https://github.com/scratchaddons/scratchaddons/pulls">pull request</a>. Also, please read our <a href="https://github.com/ScratchAddons/ScratchAddons/blob/master/CONTRIBUTING.md">contributing guidelines</a>.</p>
+<h3 style="text-align: center;">License</h3>
+<p>Scratch Addons is licensed under the terms of the <a href="https://github.com/ScratchAddons/ScratchAddons/blob/master/LICENSE">GNU General Public License v3.0</a>.</p>

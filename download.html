@@ -1,44 +1,35 @@
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-	<link rel="stylesheet" href="index.css"></link>
-	<link rel="icon" type="image/png" href="./logo.png">
-	<title>ScratchAddons | Download</title>
-</head>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-<link rel="stylesheet" href="header.css">
-	<div class="topnav" id="myTopnav">
-		<a href="index.html">Home</a>
-		<a href="about.html">About</a>
-		<a href="contribute.html">Contribute</a>
-		<a href="download.html" class="active">Download</a>
-		<a href="contributors.html">Contributors</a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-			<i class="fa fa-bars"></i>
-  </a>
-  </div>
-</link>
-<h1>How to download ScratchAddons</h1>
-<h2 style="text-align: center; text-decoration: underline;"><a href="https://github.com/ScratchAddons/ScratchAddons/zipball/master">Direct download</a><br> OR <br>Install the latest release: ↓</h2>
-<ol>
-  <li> Go to the <a href="https://github.com/scratchaddons/scratchaddons">GitHub repository</a> for the addon.</li>
-  <li>Find the "Clone of Download" button: 
-    <img src="Step 1.png" style="width: 50%; height: auto;"></img></li>
-  <li>Click the button and select "Download ZIP":<img src="Step 2.png" style="width: 50%; height: auto;"></img></li>
-  </ol>
-  <h2 style="text-decoration: underline;">Installation Instructions</h2>
-  <ol>
-  <li>Unzip the file to a new folder and go to your <a href="chrome://extensions">Chrome Extensions</a> section and turn on developer mode: <img src="Step 3.png" style:"width:25%; height: auto;"></li>
-  <li>Click "Load unpacked" and select the folder with the extension:<img src="Step 4.png"></li>
-  <li>Congrats! You now have ScratchAddons installed! To get started click on the 3 dots next to the extension in the toolbar and select "Options". You will then be taken to a settings page where you can turn on and off the addons!</li>
-</ol>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+<head>
+    <meta charset="utf-8">
+    <title>ScratchAddons | Blank</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js">
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+<body>
+  <nav>
+        <div class="logo">
+            <img src="logo.png" href="https://github.com/ScratchAddons" style="width: 8%; height: auto; border-radius: 50%; float: left; margin-right: 20px;">
+            ScratchAddons
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contribute.html">Contribute</a></li>
+            <li><a href="#" class="active" href="#" onclick="alert('You are already here!')">Download</a></li>
+            <li><a href="contributors.html">Contributors</a></li>
+        </ul>
+    </nav>
+</body>
+<br><br><br><br><br>
+<span id="download" class="iconify" data-icon="heroicons-outline:download" data-inline="false"></span><br>
+<h1 id="effect" style="text-align: center; padding-top: 0px; padding-bottom: 10px;">Download ScratchAddons</h1>
+<h3 style="text-align: center; padding-top: 10px; padding-bottom: 10px;"><a href="https://github.com/ScratchAddons/ScratchAddons/archive/master.zip">Direct download</a></h3><br><h4 style="text-align: center; padding-top: 10px; padding-bottom: 10px;">OR</h4><h3 style="text-align: center; padding-top: 10px; padding-bottom: 10px;"><a href="https://github.com/scratchaddons/scratchaddons/">Go to the GitHub repository</a>
