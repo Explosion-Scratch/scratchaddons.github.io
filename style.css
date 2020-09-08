@@ -134,7 +134,7 @@ p {
   text-align: left;
   text-indent: 2em;
   padding-top: 5px;
-  float: left;
+  overflow: visible;
 }
 #hover {
   border-radius: 30px;
