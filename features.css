@@ -76,7 +76,7 @@ body {
   top: 0;
   left: 0;
   /*Change the width input to the number of slides times 100 */
-  width: 500%;
+  width: 800%;
   height: 100%;
   -webkit-transition: left 0.4s;
   transition: left 0.4s;
