@@ -67,6 +67,9 @@ body {
 .slider__nav:checked:nth-of-type(4) ~ .slider__inner {
   left: -300%;
 }
+.slider__nav:checked:nth-of-type(5) ~ .slider__inner {
+  left: -400%;
+}
 .slider__inner {
   position: absolute;
   top: 0;
