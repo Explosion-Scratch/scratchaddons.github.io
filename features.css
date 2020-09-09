@@ -55,6 +55,7 @@ body {
   -webkit-animation: check 0.4s linear forwards;
           animation: check 0.4s linear forwards;
 }
+/* Add another element like the ones below and replace the value in the parentheses with the number of the slide to add more slides */
 .slider__nav:checked:nth-of-type(1) ~ .slider__inner {
   left: 0%;
 }
