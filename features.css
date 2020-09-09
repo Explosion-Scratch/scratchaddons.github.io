@@ -71,6 +71,15 @@ body {
 .slider__nav:checked:nth-of-type(5) ~ .slider__inner {
   left: -400%;
 }
+.slider__nav:checked:nth-of-type(6) ~ .slider__inner {
+  left: -500%;
+}
+.slider__nav:checked:nth-of-type(7) ~ .slider__inner {
+  left: -600%;
+}
+.slider__nav:checked:nth-of-type(8) ~ .slider__inner {
+  left: -700%;
+}
 .slider__inner {
   position: absolute;
   top: 0;
