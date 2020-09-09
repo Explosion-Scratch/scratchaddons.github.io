@@ -1,46 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	</link>
-	<link rel="stylesheet" href="index.css">
-	</link>
-	<link rel="icon" type="image/png" href="./logo.png">
-	<title>ScratchAddons | Contribute</title>
+    <meta charset="utf-8">
+    <title>ScratchAddons | Contribute</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js">
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
+<body>
+  <nav>
+        <div class="logo">
+            <img src="logo.png" href="https://github.com/ScratchAddons" style="width: 8%; height: auto; border-radius: 50%; float: left; margin-right: 20px;">
+            ScratchAddons
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="#"onclick="alert('You are already here!')">Contribute</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="contributors.html">Contributors</a></li>
+        </ul>
+    </nav>
+</body>
 
-<link rel="stylesheet" href="header.css">
-<div class="topnav" id="myTopnav">
-	<a href="index.html">Home</a>
-	<a href="about.html">About</a>
-	<a href="contribute.html" class="active">Contribute</a>
-	<a href="download.html">Download</a>
-	<a href="contributors.html">Contributors</a>
-	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		<i class="fa fa-bars"></i>
-  </a>
-  </div>
-</link>
-<div class="index"><br><br>
-<div class="image_text">
-<img src="Contribute Banner.jpg" style="width: 90%; height: auto; margin-left: auto; margin-right: auto; display: block;">
-<h2 style="font-size: 50px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-decoration: underline;">Contribute</h2></div>
-  <p style="text-indent: 2em;">To contribute, first go to the  <a href="https://github.com/scratchaddons">github repository</a> for ScratchAddons. Then create an issue and click on the "New Addon" template to suggest a addon. Fill out the issue then create a PR (pull request) with the addon. If @World_Languages and @apple502j approve, then you addon will be added to the official extension! Thanks for helping!</p>
-</div></div>
 
-<style>
-  .image_text {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-</style>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+<br><br><br><br><br>
+<span style="width: 200px; height: auto;" id="download" class="iconify" data-icon="bytesize:code" data-inline="false"></span><br>
+<h1 style="text-align: center;" id="effect">Contribute to ScratchAddons</h1>
+<p>Contributing to ScratchAddons is easy! Simply go to the <a href="https://github.com/scratchaddons/scratchaddons/">GitHub repository</a> for ScratchAddons and fork it! Once you have made changes to it that you would like in the official addon feel free to start a PR (Pull Request) with your changes. If <a href="https://github.com/WorldLanguages">World_Languages</a> and <a href="https://github.com/apple502j">Apple502j</a> review your code and think it's good your changes will be put into the official addon! If you can't code or would just like to help with the discussion and suggestions for the addon feel free to comment and contribute in the <a href="https://github.com/scratchaddons/scratchaddons/issues">issues tab</a> of ScratchAddons. There you can suggest new addons to be added, help with the coding a little, and much more!</p>
