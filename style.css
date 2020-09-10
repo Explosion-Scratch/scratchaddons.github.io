@@ -10,6 +10,14 @@
   text-shadow: none;
   box-shadow: none;
 } 
+*::selection {
+  background: #11b8eb;
+  color: black;
+}
+*::-moz-selection {
+  background: #11b8eb;
+  color: black;
+}
 nav{
   display: flex;
   height: 80px;
