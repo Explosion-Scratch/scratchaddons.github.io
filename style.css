@@ -251,6 +251,9 @@ td p{
 }
 
 /* Header effect */
+/* I'm going to comment this out because JeffaloBob says I should. I'm still leaving the code just in case we still want it for something */
+
+
 #effect {
   z-index: 1;
 }
@@ -274,9 +277,11 @@ td p{
   background: #0c85aa;
   transform: scaleX(0);
 }
-#effect:hover:before {
+#effect:before {
   transform: scaleX(1);
 }
+*/
+
 /* Flip cards */
 #flip-card {
   background-color: transparent;
