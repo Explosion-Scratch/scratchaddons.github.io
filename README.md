@@ -1,2 +1,2 @@
 # scratchaddons.github.io
-The official website for Scratch Addons. Maintained by @Explosion-Scratch.
+The old version of the official website for Scratch Addons. Made by @Explosion-Scratch 
